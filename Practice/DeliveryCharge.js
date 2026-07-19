@@ -11,7 +11,7 @@ const calculateOrder= (total, distance) =>{
         deliveryCharge =100;
     }
     else{
-        deliveryCharge = 50; 
+        deliveryCharge = 50;
     } 
 
     let finalAmount = total + deliveryCharge;
