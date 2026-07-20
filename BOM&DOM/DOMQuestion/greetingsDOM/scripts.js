@@ -6,7 +6,7 @@ let bye = document.getElementById("byeBtn");
 function changeHeading(text, color, fontSize){
     heading.innerText = text;
     heading.style.color = color;
-    heading.style.fontSize = fontSize
+    heading.style.fontSize = fontSize;
 }
 
 hello.addEventListener("click", function(){

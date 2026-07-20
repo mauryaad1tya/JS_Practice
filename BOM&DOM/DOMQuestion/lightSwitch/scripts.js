@@ -11,6 +11,7 @@ toggleBtn.addEventListener("click", function () {
         stat.style.color = "green";
         toggleBtn.innerText = "Turn OFF";
         isLightOn = true;
+        document.body.style.backgroundColor = "white"
 
     } else {
 
@@ -18,6 +19,7 @@ toggleBtn.addEventListener("click", function () {
         stat.style.color = "red";
         toggleBtn.innerText = "Turn ON";
         isLightOn = false;
+         document.body.style.backgroundColor = "black"
     }
 
 });
