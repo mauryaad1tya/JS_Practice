@@ -38,16 +38,35 @@
 //     heading.innerText = "Hello JavaScript"
 // })
 
-let para = document.getElementById("para");
-let count = 0;
-let button = document.getElementById("btn")
+// let para = document.getElementById("para");
+// let count = 0;
+// let button = document.getElementById("btn")
 
-button.addEventListener("click", function () {
-    count++;
-    if (count === 1) {
-        para.innerText = `Clicked ${count} time`
-    }
-    else {
-        para.innerText = `Clicked ${count} times`
-    }
+// button.addEventListener("click", function () {
+//     count++;
+//     if (count === 1) {
+//         para.innerText = `Clicked ${count} time`
+//     }
+//     else {
+//         para.innerText = `Clicked ${count} times`
+//     }
+// })
+
+
+let heading = document.getElementById("heading");
+let btn = document.getElementById("btn");
+
+let foods = [
+    "Pizza 🍕",
+    "Burger 🍔",
+    "Pasta 🍝",
+    "Biryani 🍛",
+    "Noodles 🍜",
+    "Ice Cream 🍨"
+];
+
+btn.addEventListener("click", function () {
+    let randomIndex = Math.floor(Math.random() * foods.length);
+    let food = foods[randomIndex]
+    heading.innerText = `The food for today is : ${food}`
 })

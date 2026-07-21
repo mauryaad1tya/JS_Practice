@@ -44,4 +44,3 @@ paperBtn.addEventListener("click", function () {
 scissorBtn.addEventListener("click", function () {
     playGame("Scissor");
 });
-console.warn("legs");
