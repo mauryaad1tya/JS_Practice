@@ -1,22 +1,44 @@
-#box{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#box {
     width: 300px;
     height: 200px;
-    border:solid red 2px;
+    border: 2px solid gray;
+    padding: 20px;
     border-radius: 20px;
 }
 
-#heading{
+#heading {
     display: flex;
     justify-content: center;
     margin: 18px;
     font-size: x-large;
 }
 
-#horiRow{
+#horiRow {
     color: grey;
     border-style: dashed;
 }
 
-#change{
+#change {
     margin: 10px;
+}
+#name,#course,#city{
+    margin:10px 0;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding:8px 12px;
+    margin-top:10x;
+    cursor:pointer;
+    border-radius:8px;
 }
