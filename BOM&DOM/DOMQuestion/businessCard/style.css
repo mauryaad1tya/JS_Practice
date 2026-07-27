@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#box {
+    width: 300px;
+    height: 200px;
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#role{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#lowerBox{
+    margin: 10px 0 0 0;
+}
+
