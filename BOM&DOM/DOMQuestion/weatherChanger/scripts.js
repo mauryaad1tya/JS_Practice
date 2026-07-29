@@ -4,10 +4,6 @@ let city = document.getElementById("city")
 let temp = document.getElementById("temp")
 let change = document.getElementById("change")
 
-let weathers = [
-    
-]
-
 change.addEventListener("click", function(){
     icons.innerText= "⛅";
     temp.innerText= "21 C";
