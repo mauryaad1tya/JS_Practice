@@ -226,3 +226,62 @@
 //     total += phone.price * phone.stock ;
 // }
 // console.log("Total inventory value = ",total);
+
+
+// btn.addEventListener("click", function(){
+//     heading.innerText = "Welcome Back"
+// })
+
+// let score = 0;
+
+// btn.addEventListener("click", function(){
+//     score = score+1;
+//     heading.innerText = `Score : ${score}`
+    
+// })
+// let isOnline = false;
+
+// btn.addEventListener("click", function(){
+//     if(!isOnline){
+//         heading.innerText = "online"
+//         isOnline = true;
+//         heading.style.color = "green"
+//     }
+//     else{
+//         heading.innerText = "offline"
+//         isOnline = false;
+//         heading.style.color = "red"
+//     }
+// })
+
+// let heading = document.getElementById("heading");
+// let plus = document.getElementById("plus")
+// let minus = document.getElementById("minus")
+
+// let count = 0;
+
+// plus.addEventListener("click", function(){
+//     count = count +1;
+//     heading.innerText = `Count : ${count}`
+//     if(count != 10){
+//         heading.style.color = "black"
+//     }
+//     else{
+//         heading.style.color = "blue"
+        
+//     }
+// })
+
+// minus.addEventListener("click", function(){
+//     if (count > 0) {
+//         count--;
+//     }
+//     heading.innerText = `Count : ${count}`
+//     if(count != 10){
+//         heading.style.color = "black"
+//     }
+//     else{
+//         heading.style.color = "blue"
+        
+//     }
+// })
