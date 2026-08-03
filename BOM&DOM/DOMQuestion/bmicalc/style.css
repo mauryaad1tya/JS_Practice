@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: aqua;
+}
+#box{
+    border: 2px solid red;
+    width:350px;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(79, 161, 161);
+}
+#heading{
+    text-align: center;
+}
+
+#calculate{
+    border-radius: 10px;
+    padding: 4px;
+    margin-left: 130px;
+}
+input{
+    width:95%;
+    margin:8px 0;
+    padding:8px;
+}
