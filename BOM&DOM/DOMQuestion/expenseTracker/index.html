@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <h1 id="heading">Expense Tracker</h1>
-    <input type="text" id="expName" placeholder="Enter the expense name">
-    <input type="number" id="expAmount" placeholder="Enter the expense amount">
-    <button id="addBtn">Add expense</button>
 
-    
+<body>
+    <div>
+        <div id="box">
+            <h1 id="heading">Expense Tracker</h1>
+            <input type="text" id="expName" placeholder="Enter the expense name">
+            <input type="number" id="expAmount" placeholder="Enter the expense amount">
+            <button id="addBtn">Add expense</button>
+            <div id="expenseList"></div>
+            <h2 id="total">Total: ₹0</h2>
+        </div>
+    </div>
+
+
     <script src="scripts.js"></script>
 </body>
+
 </html>
