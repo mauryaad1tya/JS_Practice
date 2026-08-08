@@ -60,7 +60,6 @@
 // })
 
 let prod = document.querySelector("div")
-
 let products = [
     {
         name: "Laptop",
@@ -75,7 +74,6 @@ let products = [
         price: 1200
     }
 ];
-
 products.forEach(function(product){
     prod.innerHTML += `<p>${product.name} - ₹${product.price}</p>`
 })
