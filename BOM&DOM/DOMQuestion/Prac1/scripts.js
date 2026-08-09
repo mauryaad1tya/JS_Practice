@@ -11,7 +11,6 @@
 // let heading =document.getElementById("heading");
 // console.log(heading.innerText = "welcome to JS");
 
-
 // let heading = document.getElementById("heading");
 // console.log(heading);
 // console.log(heading.innerText);
@@ -212,7 +211,6 @@
 // })
 
 
-
 // for (let i = 0; i < phones.length; i++) {
 //     let phone = phones[i]
 
@@ -226,7 +224,6 @@
 //     total += phone.price * phone.stock ;
 // }
 // console.log("Total inventory value = ",total);
-
 
 // btn.addEventListener("click", function(){
 //     heading.innerText = "Welcome Back"
