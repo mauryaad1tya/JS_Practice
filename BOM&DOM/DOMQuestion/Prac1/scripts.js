@@ -251,34 +251,34 @@
 //     }
 // })
 
-// let heading = document.getElementById("heading");
-// let plus = document.getElementById("plus")
-// let minus = document.getElementById("minus")
+let heading = document.getElementById("heading");
+let plus = document.getElementById("plus")
+let minus = document.getElementById("minus")
 
-// let count = 0;
+let count = 0;
 
-// plus.addEventListener("click", function(){
-//     count = count +1;
-//     heading.innerText = `Count : ${count}`
-//     if(count != 10){
-//         heading.style.color = "black"
-//     }
-//     else{
-//         heading.style.color = "blue"
+plus.addEventListener("click", function(){
+    count = count +1;
+    heading.innerText = `Count : ${count}`
+    if(count != 10){
+        heading.style.color = "black"
+    }
+    else{
+        heading.style.color = "blue"
         
-//     }
-// })
+    }
+})
 
-// minus.addEventListener("click", function(){
-//     if (count > 0) {
-//         count--;
-//     }
-//     heading.innerText = `Count : ${count}`
-//     if(count != 10){
-//         heading.style.color = "black"
-//     }
-//     else{
-//         heading.style.color = "blue"
+minus.addEventListener("click", function(){
+    if (count > 0) {
+        count--;
+    }
+    heading.innerText = `Count : ${count}`
+    if(count != 10){
+        heading.style.color = "black"
+    }
+    else{
+        heading.style.color = "blue"
         
-//     }
-// })
+    }
+})
