@@ -229,27 +229,27 @@
 //     heading.innerText = "Welcome Back"
 // })
 
-// let score = 0;
+let score = 0;
 
-// btn.addEventListener("click", function(){
-//     score = score+1;
-//     heading.innerText = `Score : ${score}`
+btn.addEventListener("click", function(){
+    score = score+1;
+    heading.innerText = `Score : ${score}`
     
-// })
-// let isOnline = false;
+})
+let isOnline = false;
 
-// btn.addEventListener("click", function(){
-//     if(!isOnline){
-//         heading.innerText = "online"
-//         isOnline = true;
-//         heading.style.color = "green"
-//     }
-//     else{
-//         heading.innerText = "offline"
-//         isOnline = false;
-//         heading.style.color = "red"
-//     }
-// })
+btn.addEventListener("click", function(){
+    if(!isOnline){
+        heading.innerText = "online"
+        isOnline = true;
+        heading.style.color = "green"
+    }
+    else{
+        heading.innerText = "offline"
+        isOnline = false;
+        heading.style.color = "red"
+    }
+})
 
 let heading = document.getElementById("heading");
 let plus = document.getElementById("plus")
