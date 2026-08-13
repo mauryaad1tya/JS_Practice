@@ -168,23 +168,48 @@
 // console.log(upperName);
 
 
-let products = [
-    {
-        name: "Laptop",
-        price: 65000
-    },
-    {
-        name: "Mouse",
-        price: 500
-    },
-    {
-        name: "Keyboard",
-        price: 1200
-    }
-];
+// let products = [
+//     {
+//         name: "Laptop",
+//         price: 65000
+//     },
+//     {
+//         name: "Mouse",
+//         price: 500
+//     },
+//     {
+//         name: "Keyboard",
+//         price: 1200
+//     }
+// ];
 
-let productNames = products.map(function(product) {
-    return product.name;
-});
+// let productNames = products.map(function(product) {
+//     return product.name;
+// });
 
-console.log(productNames);
+// console.log(productNames);
+
+// let products = [
+//     {
+//         name: "Laptop",
+//         price: 65000
+//     },
+//     {
+//         name: "Mouse",
+//         price: 500
+//     },
+//     {
+//         name: "Keyboard",
+//         price: 1200
+//     }
+// ];
+
+// let newProd = products.map(function(product){
+//     let newPrice = product.price + (product.price * 10 / 100);
+//     return {
+//     name: product.name,
+//     price: newPrice
+// };
+// })
+
+// console.log(newProd);
