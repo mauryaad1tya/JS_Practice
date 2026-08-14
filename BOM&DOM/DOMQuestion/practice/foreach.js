@@ -213,3 +213,18 @@
 // })
 
 // console.log(newProd);
+
+let products = [
+    {
+        name: "Laptop",
+        price: 65000
+    },
+    {
+        name: "Mouse",
+        price: 500
+    },
+    {
+        name: "Keyboard",
+        price: 1200
+    }
+];
