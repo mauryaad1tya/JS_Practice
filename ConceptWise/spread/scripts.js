@@ -48,6 +48,6 @@
 // console.log(updatedUser);
 
 let numbers = [10, 20, 30];
-let updatedNumbers = [...numbers, 40,50]
+let updatedNumbers = [...numbers, 40,50];
 
 console.log(updatedNumbers);
