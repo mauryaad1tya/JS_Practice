@@ -65,23 +65,23 @@
 
 // console.log(newEmployee);
 
-let employees = [
-    { name: "Rahul", age: 22, salary: 30000 },
-    { name: "Priya", age: 28, salary: 60000 },
-    { name: "Rohit", age: 31, salary: 45000 },
-    { name: "Sneha", age: 25, salary: 70000 },
-    { name: "Amit", age: 35, salary: 80000 }
-];
+// let employees = [
+//     { name: "Rahul", age: 22, salary: 30000 },
+//     { name: "Priya", age: 28, salary: 60000 },
+//     { name: "Rohit", age: 31, salary: 45000 },
+//     { name: "Sneha", age: 25, salary: 70000 },
+//     { name: "Amit", age: 35, salary: 80000 }
+// ];
 
-let newEmps = employees.filter(function(employee){
-    return employee.salary > 50000
-})
+// let newEmps = employees.filter(function(employee){
+//     return employee.salary > 50000
+// })
 
-// console.log(newEmps);
-let moreEmp = newEmps.map(function(newEmp){
-    return newEmp.name
-})
+// // console.log(newEmps);
+// let moreEmp = newEmps.map(function(newEmp){
+//     return newEmp.name
+// })
 
-console.log(moreEmp);
+// console.log(moreEmp);
 
 
