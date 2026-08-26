@@ -21,4 +21,4 @@ function showStudent(student) {
     `;
 }
 
-showStudent(student)
+// showStudent(student)
