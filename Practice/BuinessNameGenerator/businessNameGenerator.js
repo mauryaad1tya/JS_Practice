@@ -14,9 +14,9 @@ let randomWord = word[Math.floor(Math.random() * word.length)];
 // console.log(randomShopName);
 // console.log(randomWord);
 
-if (a === "Generate"){
-    console.log(`The random business name is ${randomAdj} ${randomShopName} ${randomWord}`);
-}
-else{
-    console.log("Enter 'Generate' to generate a random name for your business");
-}
+// if (a === "Generate"){
+//     console.log(`The random business name is ${randomAdj} ${randomShopName} ${randomWord}`);
+// }
+// else{
+//     console.log("Enter 'Generate' to generate a random name for your business");
+// }
