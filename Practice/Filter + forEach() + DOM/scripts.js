@@ -24,7 +24,6 @@ let employees = [
 ];
 
 function showHighSalaryEmployees(employees) {
-
     let highSalaryEmployees = employees.filter(function(employee) {
         return employee.salary > 50000;
     });
